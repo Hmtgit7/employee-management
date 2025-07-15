@@ -167,7 +167,7 @@ export function EmployeeTable() {
           
           {/* Stats Cards - Left aligned on mobile, centered on larger screens */}
           <div className="flex justify-start lg:justify-center">
-            <div className="flex flex-col xs:flex-row gap-3 w-full max-w-sm lg:max-w-none lg:w-auto">
+            <div className="flex flex-col lg:flex-row gap-3 w-full max-w-sm lg:max-w-none lg:w-auto">
               <Card className="glass-effect shadow-soft flex-1 lg:min-w-[140px] lg:flex-none">
                 <CardContent className="p-3 sm:p-4">
                   <div className="flex items-center space-x-2">
