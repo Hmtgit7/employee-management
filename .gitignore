@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+*.DS_Store
+*.coverage
+.coverage.*
+.cache/
+*.env
+.env*
+.venv/
+venv/
+
+# Django
+*.migrations/
+staticfiles/
+media/
+
+# Node/Vite/React
+node_modules/
+dist/
+bun.lockb
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/Editor/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Local env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+*.orig
+*.rej
+
+# Ignore lock files except for root
+!/employee_frontend/package-lock.json
+!/employee_frontend/bun.lockb 
